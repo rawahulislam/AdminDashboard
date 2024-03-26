@@ -65,5 +65,13 @@ input{
 @media only screen and (max-width: 600px) {
     .admin-container{
         padding: 1rem;
+        font-size: xx-small;
+
     }
+
+    input{
+        width: 50px;
+        height: 15px !important;
+    }
+
 }
