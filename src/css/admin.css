@@ -74,4 +74,19 @@ input{
         height: 15px !important;
     }
 
+    button{
+        font-size: xx-small;
+    }
+    .paginationBar{
+        margin-top: 3rem;
+        font-size: medium;
+        align-items: center;
+    }
+    .paginationBar span{
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 12px;
+        background-color: gainsboro;
+    }
+
 }
