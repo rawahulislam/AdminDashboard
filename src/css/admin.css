@@ -1,0 +1,63 @@
+.admin-container{
+    display: 100%;
+    padding: 5rem;
+}
+
+.search-input{
+    width: 100%;
+}
+
+.admin-container table{
+    width: 100%;
+    border: 1px solid gainsboro;
+}
+
+.admin-container table th,tr,td{
+    border: 1px solid gainsboro;
+    text-align: center;
+
+}
+.paginationBar{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.paginationNumbers{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+button{
+    padding: .5rem;
+    color: black;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 12px;
+    margin-right: 1rem;
+}
+
+.admin-container button{
+    margin-top: 1rem;
+}
+
+.admin-container table button{
+    margin-top: 0;
+}
+
+.cursorSelected{
+    cursor: pointer;
+}
+
+input{
+    height: 2rem !important;
+}
+
+.checkedBackground{
+    background-color: gainsboro;
+}
+.removeBackground{
+    background-color: white;
+}
